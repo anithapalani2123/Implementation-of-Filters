@@ -8,27 +8,32 @@ Anaconda - Python 3.7
 ## Algorithm:
 ### Step1
 </br>
+Import cv2, matplotlib.py libraries and read the saved images using cv2.imread().
 </br> 
 
 ### Step2
 </br>
+Convert the saved BGR image to RGB using cvtColor().
 </br> 
 
 ### Step3
 </br>
+By using the following filters for image smoothing:filter2D(src, ddepth, kernel), Box filter,Weighted Average filter,GaussianBlur(src, ksize, sigmaX[, dst[, sigmaY[, borderType]]]), medianBlur(src, ksize),and for image sharpening:Laplacian Kernel,Laplacian Operator.
 </br> 
 
 ### Step4
 </br>
+Apply the filters using cv2.filter2D() for each respective filters.
 </br> 
 
 ### Step5
 </br>
+Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 </br> 
 
 ## Program:
-### Developed By   :
-### Register Number:
+### Developed By: ANITHA.P
+### Register Number:212221240004
 </br>
 
 ### 1. Smoothing Filters
@@ -184,15 +189,15 @@ plt.axis('off')
 </br>
 
 i) Using Averaging Filter
-![output](./out%201.png)
+![output](./out1.png)
 
 
 ii) Using Weighted Averaging Filter
-![output](./out%202.png)
+![output](./out2.png)
 
 
 iii) Using Gaussian Filter
-![output](./out%203.png)
+![output](./out3.png)
 
 
 iv) Using Median Filter
@@ -207,7 +212,7 @@ i) Using Laplacian Kernal
 
 
 ii) Using Laplacian Operator
-![output](./out7.png)
+![output](./out%207.png)
 
 
 ## Result:
